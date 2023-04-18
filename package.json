@@ -11,5 +11,9 @@
     "buffers"
   ],
   "author": "moemen gaballa",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "google-protobuf": "^3.21.2",
+    "protoc-gen-ts": "^0.8.6"
+  }
 }

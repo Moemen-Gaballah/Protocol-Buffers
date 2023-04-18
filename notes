@@ -1,1 +1,5 @@
 ls -ls
+
+ C:/Users/Administrator/Downloads/protoc-3.20.0-win64/bin/protoc --js_out=import_style=commonjs,binary:. employees.proto
+
+npm i google-protobuf

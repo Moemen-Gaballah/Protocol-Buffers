@@ -26,3 +26,7 @@ employees.addEmployees(rick)
 const bytes = employees.serializeBinary();
 console.log("binary " + bytes);
 fs.writeFileSync("binarydata", bytes)
+
+// deserialize
+const employees2 = Schema.Employees.deserializeBinary(bytes);
+console.log(employees2.toString());

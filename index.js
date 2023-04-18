@@ -1,3 +1,5 @@
+const fs = require("fs");
+
 const employees = [];
 
 employees.push({
@@ -20,4 +22,5 @@ employees.push({
     "salary": 3000
 })
 
-console.log(JSON.stringify(employees));
+fs.writeFileSync("jsondata.json", JSON.stringify(employees));
+// console.log(JSON.stringify(employees));
